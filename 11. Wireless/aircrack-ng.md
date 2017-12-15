@@ -8,6 +8,10 @@
          airmon-ng start wlan0 8
          # Test the injection capability of the wireless device to the AP
          aireplay-ng -9 -e teddy -a 00:14:6C:7E:40:80 wlan0mon 
+         # Disable monitor mode
+         airmon-ng stop wlan0mon
+         # restart the network manager
+         service network-manager start
       ```
    ## WEP crack
    * [Flowchart : Wep Cracking](http://www.aircrack-ng.org/img/simple-wep-crack.gif)
