@@ -6,13 +6,13 @@
          iwconfig # df 
       ```
      * Start the wireless interface in monitor mode on a specific AP channel
-       ```bash 
+      ```bash 
           airmon-ng start wlan0 8
-       ```
+      ```
      * Test the injection capability of the wireless device to the AP
-     ```bash 
+      ```bash 
           aireplay-ng -9 -e teddy -a 00:14:6C:7E:40:80 wlan0mon
-       ```
+      ```
    ## WEP crack
    * [Flowchart : Wep Cracking](http://www.aircrack-ng.org/img/simple-wep-crack.gif)
    * [Crack WEP (with client)](https://www.aircrack-ng.org/doku.php?id=simple_wep_crack) (fake authentication combined with ARP request replay technique)
