@@ -40,7 +40,6 @@
      * Run aircrack-ng to crack the pre-shared key
        * **aircrack-ng -w password.lst -b 00:14:6C:7E:40:80 psk*.cap**
 
-  # WPS crack pin
 
    * [The upper data block shows the access points found](https://www.aircrack-ng.org/doku.php?id=newbie_guide)
 
