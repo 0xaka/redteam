@@ -1,17 +1,10 @@
 # Aircrack-ng :
    * [Injection test](https://www.aircrack-ng.org/doku.php?id=injection_test)
      ##### The injection test determines if your card can successfully inject and determine the ping response times to the Access Point (AP)
-     * List wireless interfaces
       ```bash
-         iwconfig # df 
-      ```
-     * Start the wireless interface in monitor mode on a specific AP channel
-      ```bash 
-          airmon-ng start wlan0 8
-      ```
-     * Test the injection capability of the wireless device to the AP
-      ```bash 
-          aireplay-ng -9 -e teddy -a 00:14:6C:7E:40:80 wlan0mon
+         iwconfig # List wireless interfaces
+         airmon-ng start wlan0 8 # Start the wireless interface in monitor mode on a specific AP channel
+         aireplay-ng -9 -e teddy -a 00:14:6C:7E:40:80 wlan0mon # Test the injection capability of the wireless device to the AP
       ```
    ## WEP crack
    * [Flowchart : Wep Cracking](http://www.aircrack-ng.org/img/simple-wep-crack.gif)
