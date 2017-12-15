@@ -1,6 +1,6 @@
 # Aircrack-ng :
    * [Injection test](https://www.aircrack-ng.org/doku.php?id=injection_test)
-     ##### The injection test determines if your card can successfully inject and determine the ping response times to the Access Point (AP)
+     * The injection test determines if your card can successfully inject and determine the ping response times to the Access Point (AP)
       ```bash
          # List wireless interfaces
          iwconfig
