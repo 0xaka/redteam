@@ -12,9 +12,9 @@
    * Dos Attack
    
 ## Tools
-   * [aircrack-ng](aircrack-ng.md)
-   * [Wifite](https://code.google.com/archive/p/wifite/)
-   * [Reaver](https://code.google.com/archive/p/reaver-wps/wikis/README.wiki)
+   * [aircrack-ng](aircrack-ng.md) - [official aircrack-ng](https://www.aircrack-ng.org)
+   * Wifite - [official wifite](https://code.google.com/archive/p/wifite/)
+   * Reaver - [official reaver](https://code.google.com/archive/p/reaver-wps/wikis/README.wiki)
    
 ## Resources
    * https://securityonline.info/category/penetration-testing/wireless/
