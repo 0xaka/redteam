@@ -13,6 +13,8 @@
    
 ## Tools
    * [aircrack-ng](https://www.aircrack-ng.org)
+   * [Wifite](https://code.google.com/archive/p/wifite/)
+   * [Reaver](https://code.google.com/archive/p/reaver-wps/wikis/README.wiki)
    
 ## Resources
    * https://securityonline.info/category/penetration-testing/wireless/
