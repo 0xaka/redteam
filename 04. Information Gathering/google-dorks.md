@@ -1,4 +1,5 @@
-site: permet de rechercher les pages web d’un site spécifique. site:blogdumoderateur.com liste uniquement les pages web du blog du Modérateur.
+* site
+  * permet de rechercher les pages web d’un site spécifique. site:blogdumoderateur.com liste uniquement les pages web du blog du Modérateur.
 filetype: limite la recherche au type de fichier spécifié. filetype:PDF permet de rechercher uniquement les documents PDF.
 cache: permet de visualiser la page spécifiée telle qu’elle est conservée dans le cache Google. Exemple : cache:blogdumoderateur.com.
 related: ajouter une URL à la suite de l’opérateur pour connaître les pages similaires. related:google.fr permet de découvrir d’autres moteurs de recherche.
