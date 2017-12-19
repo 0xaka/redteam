@@ -1,4 +1,4 @@
-* File
+* Network Configuration Files
   * /etc/hostname
   * /etc/network/interfaces
   * /etc/host.conf
@@ -32,3 +32,4 @@
   * ssh
   * scp
   * telnet
+  * ftp
