@@ -2,3 +2,5 @@
 * Admin
   * lsof
   * top
+  * w
+  
