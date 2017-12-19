@@ -21,8 +21,4 @@
   * https://coagul.org/drupal/publication/commandes-r%C3%A9seaux-sous-linux
   * findsmb
   * telnet
-  
-  
-* Admin
-  * lsof
-  * top
+ 
