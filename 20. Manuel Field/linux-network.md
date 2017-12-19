@@ -8,7 +8,7 @@
 * Tools
   * ifcong
   * ifup
-  * ifdown
+  * ifdown  
   * ifcfg
   * arp
   * route
@@ -18,7 +18,17 @@
   * ping
   * host
   * whois
+  * nslookup
   * https://coagul.org/drupal/publication/commandes-r%C3%A9seaux-sous-linux
   * findsmb
-  * telnet
+  
+* wireless
+  * iwconfig
+  * iwlist
  
+* internet
+  * wget
+  * curl
+  * ssh
+  * scp
+  * telnet
