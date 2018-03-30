@@ -1,1 +1,17 @@
-Card
+django-admin startproject mysite
+python manage.py startapp polls
+python manage.py migrations polls
+python manage.py migrate
+python manage.py runserver
+
+import csv
+import os
+path =  "C:\\...." # Set path of new directory here
+os.chdir(path) # changes the directory
+from dashboard.models import Country # imports the model
+with open('countries_continents.csv') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+            p = Country(country=row['Country'], continent=row['Continent'])
+            p.save()
+exit()
